@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(to left, red, blue);
+}
+
+.pista {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 60vw;
+    height: 30vw;
+    background: black;
+}
+
+.linea1 {
+    background: white;
+    top: 42%;
+    left: 5%;
+    width: 7vw;
+    height: 2vw;
+}
+.linea2 {
+    background: white;
+    top: 42%;
+    left: 25%;
+    width: 7vw;
+    height: 2vw;
+}
+.linea3 {
+    background: white;
+    top: 42%;
+    left: 45%;
+    width: 7vw;
+    height: 2vw;
+}
+.linea4 {
+    background: white;
+    top: 42%;
+    left: 65%;
+    width: 7vw;
+    height: 2vw;
+}
+.linea5 {
+    background: white;
+    top: 42%;
+    left: 85%;
+    width: 7vw;
+    height: 2vw;
+}
+
+.auto {
+    background: red ;
+    top: 70%;
+    left: 1%;
+    width: 13vw;
+    height: 7vw;    
+    border-radius: 0% 20% 0% 0%;
+}
+.trompa {
+    background: red ;
+    top: 84%;
+    left: 20%;
+    width: 5vw;
+    height: 3vw;
+    border-radius: 0% 20% 0% 0%;
+}
+.ruedaizq {
+    background: gray;
+    top: 90%;
+    left: 2%;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+.ruedader {
+    background: gray;
+    top: 90%;
+    left: 16%;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+.vidrio {
+    background: rgb(13, 8, 8) ;
+    top: 73%;
+    left: 16%;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 0% 20% 0% 0%;
+}
+h1 {
+    text-align: center;
+}
+h1:hover {
+    transition: all 1s;
+    text-shadow: 7px 7px 10px rgb(51, 45, 45);
+    cursor: pointer;
+}
+
+
+
+
+
+.pista * {
+    position: absolute;
+}
